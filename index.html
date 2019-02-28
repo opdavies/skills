@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="./tailwind.min.css" rel="stylesheet">
+  <style>
+    .spaced-y-1 > * { margin-bottom: .25rem }
+    .spaced-y-1 > *:last-child { margin-bottom: 0 }
+
+    .spaced-y-6 > * { margin-bottom: 1.5rem }
+    .spaced-y-6 > *:last-child { margin-bottom: 0 }
+  </style>
+</head>
+<body class="text-grey-darkest text-sm">
+  <section class="container mx-auto px-4 my-10">
+    <h2 class="mb-4">Skills</h2>
+
+    <div class="flex flex-wrap -mx-4 spaced-y-6">
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+        <h2 class="text-black uppercase text-base mb-2">Back end</h2>
+
+        <ul class="list-reset leading-normal spaced-y-1">
+          <li>PHP (5, 7)</li>
+          <li>MySQL</li>
+          <li>PHPUnit</li>
+          <li>Behat</li>
+        </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+        <h2 class="text-black uppercase text-base mb-2">Front end</h2>
+
+        <ul class="list-reset leading-normal spaced-y-1">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Sass/Less</li>
+          <li>Tailwind CSS</li>
+          <li>Vue.js</li>
+          <li>Twig</li>
+        </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+        <h2 class="text-black uppercase text-base mb-2">CMSes and Frameworks</h2>
+
+        <ul class="list-reset leading-normal spaced-y-1">
+          <li>Drupal</li>
+          <li>Symfony</li>
+          <li>Laravel</li>
+          <li>Sculpin</li>
+          <li>Jekyll</li>
+        </ul>
+      </div>
+
+      <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+        <h2 class="text-black uppercase text-base mb-2">Other</h2>
+
+        <ul class="list-reset leading-normal spaced-y-1">
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Docker</li>
+          <li>Ansible</li>
+          <li>Puppet</li>
+          <li>Apache</li>
+          <li>Nginx</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
